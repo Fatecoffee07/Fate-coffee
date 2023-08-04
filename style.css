@@ -115,7 +115,7 @@ body {
 }
 
 .hero .content .first-word {
-    font-size: 4em;
+    font-size: 4.5rem;
     color: var(--bg);
     display: block;
     margin-bottom: 0.8rem;
@@ -360,6 +360,9 @@ color: var(--primary);
 @media (max-width: 1366px) {
     html {
         font-size: 75%;
+    }
+    .hero .content .first-word {
+        font-size: 4.5rem;
     }
 }
 
