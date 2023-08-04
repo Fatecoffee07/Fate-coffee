@@ -1,0 +1,171 @@
+:root {
+    --primary: #512615;
+    --bg: #9e7352;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: white;
+}
+
+/* Hero Section */
+.menu {
+    padding: 2rem 7% 1.4rem;
+}
+
+.menu .tittle h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+}
+
+.menu .tittle p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.3rem 0 0;
+}
+
+.menu .drink h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    padding: 3rem 0 0;
+}
+
+.menu .food h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    padding: 5rem 0 0;
+}
+
+.menu .row {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 1rem 0 0;
+    text-align: center;
+}
+
+.menu .row1 {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 1rem 0 0 ;
+    text-align: center;
+}
+
+.menu .row img {
+    image-resolution: 100%;
+    width: 100%;
+    padding: 0rem 0 0rem 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .row1 img {
+    image-resolution: 100%;
+    width: 100%;
+    padding: 0rem 0 0rem 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .row img:hover {
+    zoom: 160%;
+}
+
+.menu .row1 img:hover {
+    zoom: 160%;
+}
+
+.menu .row h3, .menu .row1 h3 {
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.menu .row p, .menu .row1 p {
+    font-weight: 600;
+    margin: 0.2rem;
+}
+
+.menu .button a {
+display: flex;
+justify-content: center;
+padding: 3rem 0;
+font-size: 4rem;
+color: white;
+font-weight: bold;
+}
+
+.menu .button a:hover {
+color: #512615;
+}
+
+.menu .more-drink a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+    
+.menu .more-drink a:hover {
+    color: #512615;
+}
+
+.menu .more-food a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+    
+.menu .more-food a:hover {
+    color: #512615;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+    html {
+        font-size: 55%;
+    }
+
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
